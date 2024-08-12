@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build .
+    # description: "Build the vehicle service"  # Remove this line
+
+  test:
+    cmds:
+      - go test ./...
+    # description: "Run tests for the vehicle service"  # Remove this line
+
+  run:
+    cmds:
+      - go run main.go
+    # description: "Run the vehicle service"  # Remove this line
