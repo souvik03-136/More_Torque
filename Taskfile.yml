@@ -13,5 +13,5 @@ tasks:
 
   run:
     cmds:
-      - go run main.go
+      - go run cmd/main.go
     # description: "Run the vehicle service"  # Remove this line
